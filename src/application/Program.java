@@ -19,7 +19,7 @@ public class Program {
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 
         System.out.println();
-        System.out.println("=== TEST 1: department insert ===");
+        System.out.println("== TEST 1: department insert ==");
 
         Department department = new Department(null, "Music");
         departmentDao.insert(department);
